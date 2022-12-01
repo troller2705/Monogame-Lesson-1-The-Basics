@@ -57,7 +57,9 @@ namespace Monogame_Lesson_1_The_Basics
 
             // TODO: Add your drawing code here
             _spriteBatch.Begin();
+            //Background
             _spriteBatch.Draw(bgTexture, new Vector2(0, 0), Color.White);
+            //Objects
             _spriteBatch.Draw(dinoTexture, new Vector2(240, 395), Color.White);
             _spriteBatch.Draw(triceTexture, new Vector2(610, 270), Color.White);
             _spriteBatch.Draw(bushTexture, new Vector2(700, 350), Color.White);
